@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="fishModel"
+            type="com.example.myapplication.viewmodel.FishViewModel" />
+    </data>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/fish_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@{fishModel.fishImg}"
+            />
+
+        <TextView
+            android:id="@+id/fish_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@{fishModel.fishName}"
+            />
+
+        <TextView
+            android:id="@+id/cat_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@{fishModel.fishCatName}"
+            />
+
+        <TextView
+            android:id="@+id/fish_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{fishModel.fishSize}"
+            />
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{fishModel.fishPrice}"
+            />
+
+    </LinearLayout>
+
+    </ScrollView>
+</layout>

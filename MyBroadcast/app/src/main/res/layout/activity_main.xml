@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    tools:context = ".MainActivity">
+    <TextView
+        android:id="@+id/click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here for internet check broadcast"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/get_intent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onNextActivityButtonClick"
+        android:text="Go to Second Acitvity"
+        android:layout_below="@+id/click"
+       />
+
+    <Button
+        android:id="@+id/get_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onRecyclerViewBtn"
+        android:text="Recycler View list"
+        android:layout_below="@id/get_intent"
+      />
+
+
+    <Button
+        android:id="@+id/get_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:onClick="onSendNotificationClick"
+        android:text="Send Notification"
+        android:layout_below="@id/get_list"
+    />
+
+
+
+    <Button
+        android:id="@+id/auto_complete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:onClick="onAutocompleteBtn"
+        android:text="TypeAhead Adapter"
+        android:layout_below="@id/get_notification"
+        />
+    <Button
+        android:id="@+id/shimmeringbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:onClick="onShimmerBtn"
+        android:text="Shimmering Effect"
+        android:layout_below="@id/auto_complete"
+        />
+
+    <Button
+        android:id="@+id/tablayoutbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:onClick="onTabLayoutBtn"
+        android:text="Tab Layout"
+        android:layout_below="@id/shimmeringbtn"
+        />
+    <Button
+        android:id="@+id/swiperefreshbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:onClick="onSwipeRefreshBtn"
+        android:text="Swipe to Refresh"
+        android:layout_below="@id/tablayoutbtn"
+        />
+    <Button
+        android:id="@+id/runTimebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:onClick="onRunTimeBtn"
+        android:text="Run Time Permissions"
+        android:layout_below="@id/swiperefreshbtn"
+        />
+    <Button
+        android:id="@+id/checkBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:onClick="onCheckboxBtn"
+        android:text="checkbox Select"
+        android:layout_below="@id/runTimebtn"
+        />
+
+</RelativeLayout>

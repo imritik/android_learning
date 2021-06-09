@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">MyBroadcast</string>
+    <string name="title_activity_intent">intentActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_recycler">RecyclerActivity</string>
+    <string name="title_activity_notification_view">NotificationView</string>
+    <string name="title_activity_bottom_navigate">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_activity_auto_adapter">AutoAdapter</string>
+    <string name="title_activity_shimmering">ShimmeringActivity</string>
+    <string name="title_activity_tab">tabActivity</string>
+
+    <string name="home_fragment">Home Fragment</string>
+    <string name="sport_fragment">Sport Fragment</string>
+    <string name="movie_fragment">Movie Fragment</string>
+    <string name="title_activity_swipe_to_refresh">SwipeToRefresh</string>
+    <string name="title_activity_run_time_permission">RunTimePermissionActivity</string>
+    <string name="title_activity_checkbox">CheckboxActivity</string>
+
+    <string-array name="item_fruits">
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Mango</item>
+        <item>Orange</item>
+        <item>Cherry</item>
+        <item>Grape</item>
+        <item>Coconut</item>
+        <item>Blueberry</item>
+        <item>Strawberry</item>
+        <item>Pear</item>
+        <item>Watermelon</item>
+    </string-array>
+
+    <string-array name="item_price">
+        <item>100</item>
+        <item>40</item>
+        <item>55</item>
+        <item>25</item>
+        <item>80</item>
+        <item>120</item>
+        <item>15</item>
+        <item>30</item>
+        <item>70</item>
+        <item>85</item>
+        <item>75</item>
+    </string-array>
+</resources>
